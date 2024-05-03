@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-900 h-full overflow-x-hidden;
+}
+
+#__next {
+  @apply h-full;
+}
+
+html {
+  @apply h-full;
+}
+
+/* Scroll bar */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
